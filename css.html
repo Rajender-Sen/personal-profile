@@ -1,27 +1,53 @@
+<!DOCTYPE html>
 <html>
+<head>
     <style>
         body {
+            margin: 0;
+            font-family: Arial, sans-serif;
             background-color: lightblue;
         }
-        h1 {
+
+        .nav {
+            
+        }
+
+        .logo {
             color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .main {
+            padding: 40px;
             text-align: center;
         }
-        .nav{
-            display: flex;
-            justify-content: space-around;
-            overflow: hidden;
+
+        @media (max-width: 600px) {
+           
         }
-      
     </style>
-    <body>
-        <nav class="nav">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">IMAGE</div>
+        <div class="nav-links">
             <a href="index.html">Home</a> 
             <a href="about.html">About</a> 
             <a href="contact.html">Contact</a>
-        </nav>
+        </div>
+    </nav>
+
+    <div class="main">
         <h1>This is a heading</h1>
         <p>This is a paragraph.</p>
-
-    </body>
+    </div>
+</body>
 </html>
