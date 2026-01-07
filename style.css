@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
+
 
 body {
     background-color: #f4f7f6;
